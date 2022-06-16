@@ -1,0 +1,1700 @@
+@media only screen 
+and (min-device-width : 0px) 
+and (max-device-width : 601px){
+    #page_loader_container{
+        display: none;
+    } 
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
+
+    #page_loader_container{
+        display: none;
+    }
+   .for_desktop{
+       display: none;
+       margin: 0%;
+       padding: 0%;
+   }
+   .for_mobile{
+       display: block;
+       margin: 0%;
+       padding: 0%;
+       width: 100%;
+   }
+
+   .for_mobile #up{
+       width: 100%;
+       height: auto;
+       background-color: whitesmoke;
+       background-image: url(../../images/body_bg_mobile.png);
+       background-position: top center;
+       background-repeat: no-repeat; 
+       background-size: 100%;
+   }
+
+   /*Header*/
+   .for_mobile #up #header{
+       height: 15vh;
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+   }
+   .for_mobile #up #header #for_left{
+       width: 80%;
+       height: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+   }
+   .for_mobile #up #header img{
+       height: 10vh;
+       width: auto;
+       margin-right: 6%;
+       margin-left: 6%;
+   }
+   .for_mobile #up #header div p{
+       color: #ffffff;
+       margin: 0%;
+       text-align: left;
+   }
+   .for_mobile #up #header div .a{
+       font-family: futuraBold;
+       font-size: 3.5vh;
+   }
+   .for_mobile #up #header div .b{
+       font-family: futura;
+       font-weight: bolder;
+       font-size: 2vh;
+   }
+   .for_mobile #up #header #hamburger_menu{
+       height: 55px;
+       width: auto;
+       margin-top: .5%;
+       margin-right: 5%;
+   }
+   .for_mobile #up #header #close_hamburger{
+       height: 61px;
+       width: auto;
+       margin-top: .5%;
+       display: none;
+       position: fixed;
+       right: 3.5%;
+       z-index: 2;
+   }
+   .for_mobile #up #header #hamburger_menu:hover, .for_mobile #up #header #close_hamburger:hover{
+       opacity: 50%;
+   }
+
+
+   /*Footer*/
+   .for_mobile #bot{
+       height: auto;
+       width: 100%;
+       background-color: #5FB1F2;
+       display: flex;
+       flex-direction: column;
+   }
+   .for_mobile #bot #f1{
+       height: auto;
+       width: 80%;
+       margin: 0% auto;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       margin-top: 4%;
+   }
+   .for_mobile #bot #f1 #f1_text{
+       color: whitesmoke;
+       margin: 3% 0%;
+       font-size: 2vh;
+       font-family: 'Poppins', sans-serif;
+       font-weight: 700;
+   }
+   .for_mobile #bot #f1 #plus_btn1{
+       height: 65%;
+       width: auto;
+       display: block;
+   }
+   .for_mobile #bot #f1 #minus_btn1{
+        height: 65%;
+        width: auto;
+        display: none;
+    }
+    .for_mobile #bot #f1 #plus_btn2{
+        height: 65%;
+        width: auto;
+        display: block;
+    }
+    .for_mobile #bot #f1 #minus_btn2{
+         height: 65%;
+         width: auto;
+         display: none;
+     }
+   .for_mobile #bot .f1_subtext{
+        width: 80%;
+        color: rgb(240, 240, 240);
+        margin: 1% auto;
+        font-size: 1.9vh;
+        font-family: 'Poppins', sans-serif;
+        display: none;
+   }
+   .for_mobile #bot .f2_subtext{
+        width: 80%;
+        color: rgb(240, 240, 240);
+        margin: 1% auto;
+        font-size: 1.9vh;
+        font-family: 'Poppins', sans-serif;
+        display: none;
+    }
+   .for_mobile #bot .f1_subtext:hover,   .for_mobile #bot .f2_subtext:hover{
+        opacity: 50%;
+   }
+   .for_mobile #bot #f3{
+    height: 5vh;
+    width: 80%;
+    margin: 0% auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 0%;
+  }
+  .for_mobile #bot #f3 a{
+      height: auto;
+      margin-right: 3%;
+  }
+  .for_mobile #bot #f3 a img{
+      height: 3.4vh;
+  }
+  .for_mobile #bot .f3_subtext{
+    width: 80%;
+    color: rgb(240, 240, 240);
+    margin: 1% auto;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+   
+   /*Hamburger Container*/
+   #hamburger_container #hamburger{
+       background: #44ADDD;
+       position: fixed;
+       height: 100vh;
+       width: 70%;
+       left: -70%;
+       top: 0%;
+       display: block;
+       z-index: 11;
+   }
+   #hamburger_container #hamburger #up_logo{
+       height: 20%;
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   #hamburger_container #hamburger #up_logo img{
+       height: 40%;
+       width: auto;
+       margin-right: 4%;
+   }
+   #hamburger_container #hamburger #up_logo div p{
+    color: whitesmoke;
+    margin: 0%;
+    text-align: center;
+   }
+   #hamburger_container #hamburger #up_logo div .a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5vh;
+    font-weight:bolder;
+    text-align: left;
+   }
+   #hamburger_container #hamburger #up_logo div .b{
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-size: 1.8vh;
+   }
+   #hamburger_container #for_opacity_burger{
+       width: 30%;
+       background: rgba(0, 0, 0, 0.6);
+       height: 100vh;
+       position: fixed;
+       width: 30%;
+       right: 0%;
+       top: 0%;
+       display: none;
+   }
+   #hamburger_container #hamburger .burger{
+       font-size: 2.5vh;
+       font-family: futura;
+       font-weight: bolder;
+       color: whitesmoke;
+       padding: 3% 0%;
+       width: 100%;
+       text-indent: 10%;
+   }
+   #hamburger_container #hamburger .burger:hover{
+       opacity: 50%;
+   }
+   #hamburger_container #hamburger .burger_btn{
+       height: 10%;
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+       align-items: center;
+   }
+   #hamburger_container #hamburger .burger_btn button{
+    font-size: 2.3vh;
+    color: #7D8790;
+    background-image: linear-gradient(to right top, #fffacd, #e7f7c7, #ccf4c6, #aff0cb, #90ebd4);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: none;
+    padding: 8px 40px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+   }
+   #hamburger_container #hamburger .burger_btn button:hover{
+       opacity: 50%;
+   }
+
+
+
+
+    /*Terms of service*/
+    #terms_containerM{
+        height: auto;
+        width: 100%;
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 50;
+        display: none;
+    }
+    #terms_containerM #termsM{
+        height: auto; /*auto dapat*/
+        margin-top: -100%;
+        width: 100%;
+        background-color: whitesmoke;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        overflow-y: scroll;
+    }
+    #terms_containerM #termsM #close_btnM{
+        height: 3vh;
+        width: auto;
+        margin: 0% 7%;
+        margin-top: 7%;
+        margin-bottom: 3%;
+        float: right;
+     }
+     #terms_containerM #termsM #close_btnM:hover{
+        opacity: 50%;
+        cursor: pointer;
+    }
+    #terms_containerM #termsM #one{
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #terms_containerM #termsM #one img{
+        height: 100%;
+        width: auto;
+        margin-right: 4%;
+    }
+    #terms_containerM #termsM #one #terms_header p{
+        margin: 0%;
+    }
+    #terms_containerM #termsM #one #terms_header #a1{
+        font-family: futuraBold; 
+        font-weight: bolder;
+        font-size: 7vw;
+        color: #60c9fa;
+    }
+    #terms_containerM #termsM #one #terms_header #a2{
+        font-family: 'Poppins', sans-serif; 
+        font-weight: bolder;
+        font-size: 2vh;
+        color: gray;
+    }
+    #terms_containerM #termsM #text1{
+        margin: 0% 10%;
+        margin-top: 2%;
+        font-family: 'Poppins', sans-serif; 
+        font-size: 2vh;
+        color: rgb(49, 49, 49);
+        margin-top: 10%;
+    }
+    #terms_containerM #termsM #text2{
+        margin: 0% 10%;
+        margin-top: 5%;
+        font-family: 'Poppins', sans-serif; 
+        font-weight: 700;
+        font-size: 2vh;
+        color: rgb(49, 49, 49);
+    }
+    #terms_containerM #termsM li{
+        margin: 0% 10%;
+        margin-top: 2%;
+        font-family: 'Poppins', sans-serif; 
+        font-size: 2vh;
+        color: rgb(49, 49, 49);
+    }
+    #terms_containerM #termsM #text3{
+        margin: 0% 10%;
+        margin-top: 3%;
+        margin-bottom: 5%;
+        font-family: 'Poppins', sans-serif; 
+        font-weight: 700;
+        font-size: 1.9vh;
+        color: rgb(49, 49, 49);
+    }
+    #terms_containerM #termsM #for_terms_btnM{
+        width: 100%;
+        margin-top: 3%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #terms_containerM #termsM #for_terms_btnM #btn_accept_termsM{
+        font-size: 2.3vh;
+        color: whitesmoke;
+        background: #80c0f4;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border: none;
+        padding: 7px 25px;
+        border-radius: 7px;
+        font-family: 'Poppins', sans-serif; 
+        margin-right: 3%;
+        margin-bottom: 10%;
+    }
+    #terms_containerM #termsM #for_terms_btnM #btn_cancel_termsM{
+        font-size: 2.3vh;
+        color: #80c0f4;
+        background: #fafdf3; 
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border: 2px solid #80c0f4;
+        padding: 7px 25px;
+        border-radius: 7px;
+        font-family: 'Poppins', sans-serif; 
+        margin-right: 3%;
+        margin-bottom: 10%;
+    }
+    #terms_containerM #termsM #for_terms_btnM button:hover{
+        opacity: 70%;
+    }
+
+
+    /*Privacy policy*/
+    #privacy_containerM{
+        height: auto;
+        width: 100%;
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 50;
+        display: none;
+    }
+    #privacy_containerM #privacyM{
+        height: auto; /*auto dapat*/
+        margin-top: -100%; /*-100% dapat*/
+        width: 100%;
+        background-color: whitesmoke;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        overflow-y: scroll;
+    }
+    #privacy_containerM #privacyM #close_privacyM{
+        height: 3vh;
+        width: auto;
+        margin: 0% 7%;
+        margin-top: 7%;
+        margin-bottom: 3%;
+        float: right;
+     }
+     #privacy_containerM #privacyM #close_privacyM:hover{
+        opacity: 50%;
+        cursor: pointer;
+    }
+
+    #privacy_containerM #privacyM #one{
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #privacy_containerM #privacyM #one img{
+        height: 100%;
+        width: auto;
+        margin-right: 4%;
+    }
+    #privacy_containerM #privacyM #one #privacy_header p{
+        margin: 0%;
+    }
+    #privacy_containerM #privacyM #one #privacy_header #a1{
+        font-family: futuraBold; 
+        font-weight: bolder;
+        font-size: 7vw;
+        color: #60c9fa;
+    }
+    #privacy_containerM #privacyM #one #privacy_header #a2{
+        font-family: 'Poppins', sans-serif; 
+        font-weight: bolder;
+        font-size: 2vh;
+        color: gray;
+    }
+
+    #privacy_containerM #privacyM  #text1{
+        margin: 0% 10%;
+        margin-top: 2%;
+        font-family: 'Poppins', sans-serif; 
+        font-size: 2vh;
+        color: rgb(49, 49, 49);
+    }
+    #privacy_containerM #privacyM  #text2{
+        margin: 0% 10%;
+        margin-top: 5%;
+        font-family: 'Poppins', sans-serif; 
+        font-weight: 700;
+        font-size: 2vh;
+        color: rgb(49, 49, 49);
+    }
+    #privacy_containerM #privacyM  #text4{
+        margin: 0% 10%;
+        margin-top: 2.5%;
+        font-family: 'Poppins', sans-serif; 
+        font-weight: 700;
+        font-size: 2vh;
+        color: rgb(49, 49, 49);
+    }
+    #privacy_containerM #privacyM  li{
+        margin: 0% 10%;
+        margin-top: 2%;
+        font-family: 'Poppins', sans-serif; 
+        font-size: 2vh;
+        color: rgb(49, 49, 49);
+    }
+    #privacy_containerM #privacyM  #for_privacy_btnM{
+        width: 100%;
+        margin-top: 3%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #privacy_containerM #privacyM  #for_privacy_btnM #btn_accept_privacyM{
+        font-size: 2.3vh;
+        color: whitesmoke;
+        background: #80c0f4;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border: none;
+        padding: 7px 25px;
+        border-radius: 7px;
+        font-family: 'Poppins', sans-serif; 
+        margin-right: 3%;
+        margin-bottom: 10%;
+    }
+    #privacy_containerM #privacyM  #for_privacy_btnM #btn_cancel_privacyM{
+        font-size: 2.3vh;
+        color: #80c0f4;
+        background: #fafdf3; 
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border: 2px solid #80c0f4;
+        padding: 7px 25px;
+        border-radius: 7px;
+        font-family: 'Poppins', sans-serif; 
+        margin-right: 3%;
+        margin-bottom: 10%;
+    }
+    #privacy_containerM #privacyM  #for_privacy_btnM button:hover{
+        opacity: 70%;
+    }
+
+
+
+    /*Cookie Popup*/
+    #cookie_containerM{
+        height: auto;
+        width: 100%;
+        background-color: black;
+        position: fixed;
+        bottom: -100%;
+        left: 0%;
+        display: none;
+        z-index: 5;
+    }
+    #cookie_containerM img{
+        height: 2.3vh;
+        width: auto;
+        float: right;
+        margin: 3%;
+    }
+    #cookie_containerM p{
+        margin: 0% auto;
+        margin-top: 7%;
+        color: white;
+        font-family: 'Poppins', sans-serif; 
+        font-size: 4.4vw;
+        width: 85%;
+    }
+    #cookie_containerM button{
+        border: none;
+        background-color: white;
+        padding: 7px 0px;
+        width: 85%;
+        font-size: 2.3vh;
+        margin-top: 6%;
+        margin-bottom: 10%;
+    }
+    #cookie_containerM p u:hover,#cookie_containerM button:hover{
+        opacity: 50%;
+    }
+
+
+
+
+    /* Sweet alert */
+    #sweetalert_container_Mobile{
+        display: none;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        inset: 0;
+        height: 100vh;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 51;
+    }
+    #sweetalert_container_Mobile #succes_alert_Mobile{
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        height: 50%;
+        width: 85%;
+        background-color: #ffffff;
+        border-radius: 20px;
+    }
+    #sweetalert_container_Mobile #succes_alert_Mobile #alert_div{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #sweetalert_container_Mobile #succes_alert_Mobile #alert_div #gif_alert{
+        height: 40%;
+        width: auto;
+    }
+        #sweetalert_container_Mobile #succes_alert_Mobile #alert_div #thankyou{
+        margin: 3% 0%;
+        font-size: 3vh;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        color: #1ac8db;
+    }
+    #sweetalert_container_Mobile #succes_alert_Mobile #alert_div .message_alert{
+        margin: 0%;
+        font-size: 2.3vh;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(99, 99, 99);
+        width: 90%;
+        text-align: center;
+    }
+    #sweetalert_container_Mobile #succes_alert_Mobile #alert_div #close_alert_Mobile{
+        margin-top: 5%;
+        width: 70%;
+        padding: 4% 0%;
+        font-size: 2vh;
+        border: none;
+        background-color: #1ac8db;
+        font-family: 'Poppins', sans-serif;
+        color: #ffff;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    #sweetalert_container_Mobile #succes_alert_Mobile #alert_div #close_alert_Mobile:hover{
+        opacity: 80%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/* tablets */
+@media only screen and (min-width: 768px)  and (max-device-width : 768px) {
+    #page_loader_container{
+        display: none;
+    }
+   .for_desktop{
+       display: none;
+       margin: 0%;
+       padding: 0%;
+   }
+   .for_mobile{
+       display: block;
+       margin: 0%;
+       padding: 0%;
+       width: 100%;
+   }
+
+   .for_mobile #up{
+       width: 100%;
+       height: 100vh;
+       background-image: url(../../images/body_bg_mobile.png);
+       background-position: center center;
+       background-attachment: fixed;
+       background-repeat: no-repeat; 
+       background-size: cover;
+       background-color:whitesmoke;
+   }
+
+   /*Header*/
+   .for_mobile #up #header{
+       height: 15vh;
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+   }
+   .for_mobile #up #header #for_left{
+       width: 80%;
+       height: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+       padding-left: 10%;
+   }
+   .for_mobile #up #header img{
+       height: 75%;
+       width: auto;
+       margin-right: 2%;
+       margin-left: 6%;
+   }
+   .for_mobile #up #header div p{
+       color: #1ac8db;
+       margin: 0%;
+       text-align: center;
+   }
+   .for_mobile #up #header div .a{
+       font-family: futuraBold;
+       font-size: 3.5vh;
+   }
+   .for_mobile #up #header div .b{
+       font-family: futura;
+       font-weight: bolder;
+       font-size: 2vh;
+   }
+   .for_mobile #up #header #hamburger_menu{
+        height: 55px;
+        width: auto;
+        margin-top: .5%;
+        margin-right: 5%;
+    }
+    .for_mobile #up #header #close_hamburger{
+        height: 61px;
+        width: auto;
+        margin-top: .5%;
+        display: none;
+        position: fixed;
+        right: 3.5%;
+        z-index: 2;
+    }
+   .for_mobile #up #header #hamburger_menu:hover, .for_mobile #up #header #close_hamburger:hover{
+        opacity: 50%;
+    }
+  
+
+   /*Footer*/
+    .for_mobile #bot{
+        height: auto;
+        width: 100%;
+        background-color: #78CCF2;
+        display: flex;
+        flex-direction: column;
+    }
+    .for_mobile #bot #f1{
+        height: auto;
+        width: 80%;
+        margin: 0% auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 4%;
+    }
+    .for_mobile #bot #f1 #f1_text{
+        color: whitesmoke;
+        margin: 3% 0%;
+        font-size: 2vh;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+    .for_mobile #bot #f1 #plus_btn1{
+        height: 65%;
+        width: auto;
+        display: block;
+    }
+    .for_mobile #bot #f1 #minus_btn1{
+        height: 65%;
+        width: auto;
+        display: none;
+    }
+    .for_mobile #bot #f1 #plus_btn2{
+        height: 65%;
+        width: auto;
+        display: block;
+    }
+    .for_mobile #bot #f1 #minus_btn2{
+        height: 65%;
+        width: auto;
+        display: none;
+    }
+    .for_mobile #bot .f1_subtext{
+        width: 80%;
+        color: rgb(240, 240, 240);
+        margin: 1% auto;
+        font-size: 1.9vh;
+        font-family: futura;
+        display: none;
+    }
+    .for_mobile #bot .f2_subtext{
+        width: 80%;
+        color: rgb(240, 240, 240);
+        margin: 1% auto;
+        font-size: 1.9vh;
+        font-family: futura;
+        display: none;
+    }
+    .for_mobile #bot .f1_subtext:hover,   .for_mobile #bot .f2_subtext:hover{
+        opacity: 50%;
+    }
+    .for_mobile #bot #f3{
+        height: 5vh;
+        width: 80%;
+        margin: 0% auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 0%;
+    }
+    .for_mobile #bot #f3 a{
+        height: auto;
+        margin-right: 3%;
+    }
+    .for_mobile #bot #f3 a img{
+        height: 3.4vh;
+    }
+    .for_mobile #bot .f3_subtext{
+        width: 80%;
+        color: rgb(240, 240, 240);
+        margin: 1% auto;
+        font-size: 1.9vh;
+        font-family: futura;
+        }
+
+
+   /*Hamburger Container*/
+    #hamburger_container #hamburger{
+        background: #44ADDD;
+        position: fixed;
+        height: 100vh;
+        width: 70%;
+        left: -70%;
+        top: 0%;
+        display: block;
+        z-index: 11;
+    }
+    #hamburger_container #hamburger #up_logo{
+        height: 20%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #hamburger_container #hamburger #up_logo img{
+        height: 55%;
+        width: auto;
+        margin-right: 4%;
+    }
+    #hamburger_container #hamburger #up_logo div p{
+        color: whitesmoke;
+        margin: 0%;
+        text-align: center;
+    }
+    #hamburger_container #hamburger #up_logo div .a{
+        font-family: 'Poppins', sans-serif;
+        font-size: 3.5vh;
+        font-weight:bolder;
+    }
+    #hamburger_container #hamburger #up_logo div .b{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.8vh;
+    }
+    #hamburger_container #for_opacity_burger{
+        width: 30%;
+        background: rgba(0, 0, 0, 0.6);
+        height: 100vh;
+        position: fixed;
+        width: 30%;
+        right: 0%;
+        top: 0%;
+        display: none;
+        z-index: 1;
+    }
+    #hamburger_container #hamburger .burger{
+        font-size: 2.5vh;
+        font-family: futura;
+        font-weight: bolder;
+        color: whitesmoke;
+        padding: 3% 0%;
+        width: 100%;
+        text-indent: 10%;
+    }
+    #hamburger_container #hamburger .burger:hover{
+        opacity: 50%;
+    }
+    #hamburger_container #hamburger .burger_btn{
+        height: 10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #hamburger_container #hamburger .burger_btn button{
+        font-size: 2.3vh;
+        color: #7D8790;
+        background-image: linear-gradient(to right top, #fffacd, #e7f7c7, #ccf4c6, #aff0cb, #90ebd4);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border: none;
+        padding: 8px 40px;
+        border-radius: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+    }   
+    #hamburger_container #hamburger .burger_btn button:hover{
+        opacity: 50%;
+    }
+
+
+   /*Login*/
+   #login_ContainerM{
+       height: 100vh;
+       width: 100%;
+       position: fixed;
+       inset: 0;
+       background: rgba(0, 0, 0, 0.6);
+       z-index: 3;
+       display: none;
+   }
+   #login_ContainerM #loginM{
+       height: auto;
+       width: 100%;
+       position: fixed;
+       bottom:0%;
+       background-color: whitesmoke;
+       border-top-left-radius: 30px;
+       border-top-right-radius: 30px;
+   }
+   #login_ContainerM #loginM #close_btnM{
+       height: 3vh;
+       width: auto;
+       margin: 0% 7%;
+       margin-top: 7%;
+       float: right;
+    }
+    #login_ContainerM #loginM #close_btnM:hover{
+        opacity: 50%;
+        cursor: pointer;
+    }
+    #login_ContainerM #loginM #welcome_containerM{
+        height: 7.5vh;
+        width: 100%;
+        margin: 0% auto;
+        padding-top: 3%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    #login_ContainerM #loginM #welcome_containerM img{
+        height: 90%;
+        margin-right: 2%;
+        margin-bottom: 1%;
+    }
+    #login_ContainerM #loginM #welcome_containerM p{
+        margin: 0%;
+        background-color: whitesmoke;
+        font-family: 'Poppins', sans-serif;
+        font-size: 3.5vh;
+        font-weight: 1000;
+        background: -webkit-linear-gradient(#FD749B, #281AC8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    #log_subtextM{
+        text-align: center;
+        font-size: 2.2vh;
+        margin: 0%;
+        margin-top: 2%;
+        color: 333333;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #login_ContainerM #loginM #inputsM{
+        margin: 0% auto;
+        margin-top: 3%;
+        width: 75%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #login_ContainerM #loginM #inputsM input{
+        border: 1.5px solid #D1D1D1;
+        border-radius: 5px;
+        width: 100%;
+        height: 5vh;
+        font-family: 'Poppins', sans-serif; 
+        font-size: 2vh;
+        padding: 5px 0px;
+        margin-top: 5%;
+        text-indent: 15px;
+    }
+    #login_ContainerM #loginM #inputsM #for_passM{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #login_ContainerM #loginM #inputsM img{
+        height: 3.3vh;
+        position: absolute;
+        right: 15%;
+        margin-top: 3.5%;
+        cursor: pointer;    
+    }
+    #login_ContainerM #loginM #inputsM #show_passM{
+        display: none;
+    }
+    #login_ContainerM #loginM #keepMe_log{
+        margin: 0% auto;
+        margin-top: 3%;
+        width: 75%;
+        height: 3vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    #login_ContainerM #loginM #keepMe_log #keep_log{
+        width: 6%;
+        height: 100%;
+    }
+    #login_ContainerM #loginM #keepMe_log #keep_log:hover{
+        cursor: pointer;
+    }
+    #login_ContainerM #loginM #keepMe_log p{
+        color: #8F8F8F;
+        font-family: 'Poppins', sans-serif; 
+        font-size: 1.8vh;
+    }
+    #login_ContainerM #loginM #data_act{
+        margin: 0% auto;
+        margin-top: 2%;
+        width: 75%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #d5e8ff;
+    }
+    #login_ContainerM #loginM #data_act p{
+        margin: 2.7% 10%;
+        width: auto;
+        font-size: 2.7vw;
+        font-family: 'Poppins', sans-serif; 
+        color: #444444;
+    }
+    #login_ContainerM #loginM #login_submit{
+        margin-top: 5%;
+        font-size: 2.3vh;
+        color: #7D8790;
+        background-image: linear-gradient(to right top, #fffacd, #e7f7c7, #ccf4c6, #aff0cb, #90ebd4);
+        border: none;
+        padding: 10px 40px;
+        border-radius: 20px;
+        font-family: futuraBold;
+    }
+    #login_ContainerM #loginM #login_submit:hover{
+        background-image: linear-gradient(to right top, #90e7eb, #8eecda, #9eefc2, #b9efa8, #dceb90);
+    }
+    #login_ContainerM #loginM #dont_have_acc{
+        margin: 0%;
+        margin-top: 5%;
+        font-size: 1.7vh;
+        font-family: 'Poppins', sans-serif; 
+        text-align: center;
+    }
+    #login_ContainerM #loginM #forgot_pass{
+        margin: 0%;
+        margin-top: 4%;
+        font-size: 1.7vh;
+        font-family: 'Poppins', sans-serif; 
+        text-align: center;
+        color:#17B6FE;
+        font-weight: bold;
+        margin-bottom: 10%;
+    }
+    .for_pointer:hover{
+        cursor: pointer;
+        opacity: 60%;
+    }
+
+
+    /*Terms of service*/
+    #terms_containerM{
+        height: auto;
+        width: 100%;
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 3;
+        display: none;
+    }
+    #terms_containerM #termsM{
+        height: auto; /*auto dapat*/
+        margin-top: -100%;
+        width: 100%;
+        background-color: whitesmoke;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        overflow-y: scroll;
+    }
+    #terms_containerM #termsM #close_btnM{
+        height: 3vh;
+        width: auto;
+        margin: 0% 7%;
+        margin-top: 7%;
+        margin-bottom: 3%;
+        float: right;
+     }
+     #terms_containerM #termsM #close_btnM:hover{
+        opacity: 50%;
+        cursor: pointer;
+    }
+    #terms_containerM #termsM #one{
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #terms_containerM #termsM #one img{
+        height: 100%;
+        width: auto;
+        margin-right: 4%;
+    }
+    #terms_containerM #termsM #one #terms_header p{
+        margin: 0%;
+    }
+    #terms_containerM #termsM #one #terms_header #a1{
+        font-family: futuraBold; 
+        font-weight: bolder;
+        font-size: 7vw;
+        color: #60c9fa;
+    }
+    #terms_containerM #termsM #one #terms_header #a2{
+        font-family: 'Poppins', sans-serif; 
+        font-weight: bolder;
+        font-size: 2vh;
+        color: gray;
+    }
+    #terms_containerM #termsM #text1{
+        margin: 0% 10%;
+        margin-top: 2%;
+        font-family: 'Poppins', sans-serif; 
+        font-size: 2vh;
+        color: rgb(49, 49, 49);
+        margin-top: 10%;
+    }
+    #terms_containerM #termsM #text2{
+        margin: 0% 10%;
+        margin-top: 5%;
+        font-family: 'Poppins', sans-serif; 
+        font-weight: 700;
+        font-size: 2vh;
+        color: rgb(49, 49, 49);
+    }
+    #terms_containerM #termsM li{
+        margin: 0% 10%;
+        margin-top: 2%;
+        font-family: 'Poppins', sans-serif; 
+        font-size: 2vh;
+        color: rgb(49, 49, 49);
+    }
+    #terms_containerM #termsM #text3{
+        margin: 0% 10%;
+        margin-top: 3%;
+        margin-bottom: 5%;
+        font-family: 'Poppins', sans-serif; 
+        font-weight: 700;
+        font-size: 1.9vh;
+        color: rgb(49, 49, 49);
+    }
+    #terms_containerM #termsM #for_terms_btnM{
+        width: 100%;
+        margin-top: 3%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #terms_containerM #termsM #for_terms_btnM #btn_accept_termsM{
+        font-size: 2.3vh;
+        color: whitesmoke;
+        background: #80c0f4;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border: none;
+        padding: 7px 25px;
+        border-radius: 7px;
+        font-family: 'Poppins', sans-serif; 
+        margin-right: 3%;
+        margin-bottom: 10%;
+    }
+    #terms_containerM #termsM #for_terms_btnM #btn_cancel_termsM{
+        font-size: 2.3vh;
+        color: #80c0f4;
+        background: #fafdf3; 
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border: 2px solid #80c0f4;
+        padding: 7px 25px;
+        border-radius: 7px;
+        font-family: 'Poppins', sans-serif; 
+        margin-right: 3%;
+        margin-bottom: 10%;
+    }
+    #terms_containerM #termsM #for_terms_btnM button:hover{
+        opacity: 70%;
+    }
+
+
+    /*Privacy policy*/
+    #privacy_containerM{
+        height: auto;
+        width: 100%;
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 3;
+        display: none;
+    }
+    #privacy_containerM #privacyM{
+        height: auto; /*auto dapat*/
+        margin-top: -100%; /*-100% dapat*/
+        width: 100%;
+        background-color: whitesmoke;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        overflow-y: scroll;
+    }
+    #privacy_containerM #privacyM #close_privacyM{
+        height: 3vh;
+        width: auto;
+        margin: 0% 7%;
+        margin-top: 7%;
+        margin-bottom: 3%;
+        float: right;
+     }
+     #privacy_containerM #privacyM #close_privacyM:hover{
+        opacity: 50%;
+        cursor: pointer;
+    }
+
+    #privacy_containerM #privacyM #one{
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #privacy_containerM #privacyM #one img{
+        height: 100%;
+        width: auto;
+        margin-right: 4%;
+    }
+    #privacy_containerM #privacyM #one #privacy_header p{
+        margin: 0%;
+    }
+    #privacy_containerM #privacyM #one #privacy_header #a1{
+        font-family: futuraBold; 
+        font-weight: bolder;
+        font-size: 7vw;
+        color: #60c9fa;
+    }
+    #privacy_containerM #privacyM #one #privacy_header #a2{
+        font-family: 'Poppins', sans-serif; 
+        font-weight: bolder;
+        font-size: 2vh;
+        color: gray;
+    }
+
+    #privacy_containerM #privacyM  #text1{
+        margin: 0% 10%;
+        margin-top: 2%;
+        font-family: 'Poppins', sans-serif; 
+        font-size: 2vh;
+        color: rgb(49, 49, 49);
+    }
+    #privacy_containerM #privacyM  #text2{
+        margin: 0% 10%;
+        margin-top: 5%;
+        font-family: 'Poppins', sans-serif; 
+        font-weight: 700;
+        font-size: 2vh;
+        color: rgb(49, 49, 49);
+    }
+    #privacy_containerM #privacyM  #text4{
+        margin: 0% 10%;
+        margin-top: 2.5%;
+        font-family: 'Poppins', sans-serif; 
+        font-weight: 700;
+        font-size: 2vh;
+        color: rgb(49, 49, 49);
+    }
+    #privacy_containerM #privacyM  li{
+        margin: 0% 10%;
+        margin-top: 2%;
+        font-family: 'Poppins', sans-serif; 
+        font-size: 2vh;
+        color: rgb(49, 49, 49);
+    }
+    #privacy_containerM #privacyM  #for_privacy_btnM{
+        width: 100%;
+        margin-top: 3%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #privacy_containerM #privacyM  #for_privacy_btnM #btn_accept_privacyM{
+        font-size: 2.3vh;
+        color: whitesmoke;
+        background: #80c0f4;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border: none;
+        padding: 7px 25px;
+        border-radius: 7px;
+        font-family: 'Poppins', sans-serif; 
+        margin-right: 3%;
+        margin-bottom: 10%;
+    }
+    #privacy_containerM #privacyM  #for_privacy_btnM #btn_cancel_privacyM{
+        font-size: 2.3vh;
+        color: #80c0f4;
+        background: #fafdf3; 
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border: 2px solid #80c0f4;
+        padding: 7px 25px;
+        border-radius: 7px;
+        font-family: 'Poppins', sans-serif; 
+        margin-right: 3%;
+        margin-bottom: 10%;
+    }
+    #privacy_containerM #privacyM  #for_privacy_btnM button:hover{
+        opacity: 70%;
+    }
+
+
+
+    /*Cookie Popup*/
+    #cookie_containerM{
+        height: auto;
+        width: 100%;
+        background-color: black;
+        position: fixed;
+        bottom: -100%;
+        left: 0%;
+        display: none;
+        z-index: 5;
+    }
+    #cookie_containerM img{
+        height: 2.3vh;
+        width: auto;
+        float: right;
+        margin: 3%;
+    }
+    #cookie_containerM p{
+        margin: 0% auto;
+        margin-top: 7%;
+        color: white;
+        font-family: 'Poppins', sans-serif; 
+        font-size: 4vw;
+        width: 85%;
+    }
+    #cookie_containerM button{
+        border: none;
+        background-color: white;
+        padding: 7px 0px;
+        width: 85%;
+        font-size: 4vw;
+        margin-top: 6%;
+        margin-bottom: 10%;
+    }
+    #cookie_containerM p u:hover,#cookie_containerM button:hover{
+        opacity: 50%;
+    }
+
+
+    /*Forgot Password*/
+    #forgotPass_ContainerM{
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.6);
+        height: 100vh;
+        width: 100%;
+        z-index: 3;
+        display: none; /*none dapat*/
+        align-items: center;
+        justify-content: center;
+    }
+    #forgotPass_ContainerM #forgotPassM{
+        height: auto;
+        width: 100%;
+        position: fixed;
+        bottom:0%;
+        background-color: whitesmoke;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+     #forgotPass_ContainerM #forgotPassM #close_forgot_btnM{
+        height: 3vh;
+        width: auto;
+        margin: 0% 7%;
+        margin-top: 7%;
+        float: right;
+    }
+    #forgotPass_ContainerM #forgotPassM #close_forgot_btnM:hover{
+        opacity: 50%;
+        cursor: pointer;
+    }
+    #forgotPass_ContainerM #forgotPassM #p1{
+        height: 6vh;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15%;
+    }
+    #forgotPass_ContainerM #forgotPassM #padlock_img{
+        height: 100%;
+        width: auto;
+    }
+
+    #forgotPass_ContainerM #forgotPassM #p2{
+        margin: 0%;
+        background-color: whitesmoke;
+        font-family: 'Poppins', sans-serif;
+        font-size: 3vh;
+        font-weight: 800;
+        background: -webkit-linear-gradient(#FD749B, #281AC8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+    }
+    #forgotPass_ContainerM #forgotPassM #p3{
+        text-align: center;
+        font-size: 1.7vh;
+        margin: .3%;
+        color: #8B8B8B;
+        font-family: 'Poppins', sans-serif;
+    }
+    #forgotPass_ContainerM #forgotPassM #forgot_form{
+        height: auto;
+        width: 80%;
+        margin: 0% auto;
+        margin-top: 7%;
+    }
+    #forgotPass_ContainerM #forgotPassM #forgot_form p{
+        margin: 0%;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2vh;
+        text-indent: 1%;
+    }
+    #forgotPass_ContainerM #forgotPassM #forgot_form input{
+        height: auto;
+        width: 100%;
+        background: #FFFFFF;
+        border: 1px solid #D1D1D1;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        text-indent: 3%;
+        margin-top: 2%;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2vh;
+        padding: 10px 0px;
+    }
+    #forgotPass_ContainerM #forgotPassM #forgot_submit{
+        margin-top: 9%;
+        margin-bottom: 10%;
+        font-size: 2vh;
+        color: #7D8790;
+        background-image: linear-gradient(to right top, #fffacd, #e7f7c7, #ccf4c6, #aff0cb, #90ebd4);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border: none;
+        padding: 10px 7%;
+        border-radius: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+    }
+    #forgotPass_ContainerM #forgotPassM #forgot_submit:hover{
+        opacity: 50%;
+    }
+
+
+    /*Admin login*/
+    .for_mobile #adminLogin_Container{
+        height: auto;
+        width: 100%;
+        background-color: #c8ebfc;
+    }
+    .for_mobile #adminLogin_Container #back{
+        margin: 0%;
+        font-size: 6vh;
+        font-weight: bolder;
+        margin-left: 5%;
+        color:  #3bbdfa;
+    }
+    .for_mobile #adminLogin_Container #back:hover{
+        color:  black;
+    }
+    .for_mobile #adminLogin_Container img{
+        height: 40vh;
+        width: auto;
+    }
+    .for_mobile #adminLogin_Container #login_form{
+        height: auto;
+        width: 100%;
+        background-color: white;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        padding-top: 5%;
+    }
+    .for_mobile #adminLogin_Container #login_form #r1{
+        width: 100%;
+        height: 10%;
+        margin: 0% auto;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .for_mobile #adminLogin_Container #login_form img{
+        height: 6vh;
+        margin-right: 2%;
+        margin-bottom: 1%;
+    }
+    .for_mobile #adminLogin_Container #login_form #r1 p{
+        margin: 0%;
+        background-color: whitesmoke;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.5vh;
+        font-weight: 800;
+        background: -webkit-linear-gradient(#FD749B, #281AC8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+        
+    .for_mobile #adminLogin_Container #login_form #inputs{
+        margin: 0% auto;
+        margin-top: 5%;
+        width: 75%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .for_mobile #adminLogin_Container #login_form #inputs input{
+        border: 1.5px solid #D1D1D1;
+        border-radius: 5px;
+        width: 100%;
+        height: 5vh;
+        font-family: 'Poppins', sans-serif; 
+        font-size: 2vh;
+        padding: 5px 0px;
+        margin-top: 5%;
+        text-indent: 15px;
+    }
+    .for_mobile #adminLogin_Container #login_form #inputs #for_pass{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .for_mobile #adminLogin_Container #login_form #inputs img{
+        height: 3.3vh;
+        position: absolute;
+        right: 13%;
+        margin-top: 1.8%;
+        cursor: pointer;    
+    }
+    .for_mobile #adminLogin_Container #login_form #inputs #show_pass{
+        display: none;
+    }
+    .for_mobile #adminLogin_Container #login_form #keepMe_log{
+        margin: 0% auto;
+        margin-top: 3%;
+        width: 75%;
+        height: 3vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .for_mobile #adminLogin_Container #login_form #keepMe_log #keep_log{
+        width: 5%;
+        height: 100%;
+    }
+    .for_mobile #adminLogin_Container #login_form #keepMe_log #keep_log:hover{
+        cursor: pointer;
+        }
+    .for_mobile #adminLogin_Container #login_form #keepMe_log p{
+        color: #8F8F8F;
+        font-family: 'Poppins', sans-serif; 
+        font-size: 1.8vh;
+    }
+    .for_mobile #adminLogin_Container #login_form #data_act{
+        margin: 0% auto;
+        margin-top: 2%;
+        width: 75%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #d5e8ff;
+    }
+    .for_mobile #adminLogin_Container #login_form #data_act p{
+        margin: 2.7% 10%;
+        width: auto;
+        font-size: 2.7vw;
+        font-family: 'Poppins', sans-serif; 
+        color: #444444;
+    }
+    .for_mobile #adminLogin_Container #login_form #login_submit{
+        margin-top: 5%;
+        font-size: 2.3vh;
+        color: #7D8790;
+        background-image: linear-gradient(to right top, #fffacd, #e7f7c7, #ccf4c6, #aff0cb, #90ebd4);
+        border: none;
+        padding: 8px 40px;
+        border-radius: 20px;
+        font-family: futuraBold;
+    }
+    .for_mobile #adminLogin_Container #login_form #login_submit:hover{
+        background-image: linear-gradient(to right top, #90e7eb, #8eecda, #9eefc2, #b9efa8, #dceb90);
+    }
+    .for_mobile #adminLogin_Container #login_form #dont_have_acc{
+        margin: 0%;
+        margin-top: 5%;
+        font-size: 1.7vh;
+        font-family: 'Poppins', sans-serif; 
+        text-align: center;
+    }
+    .for_mobile #adminLogin_Container #login_form #forgot_pass{
+        margin: 0%;
+        margin-top: 4%;
+        font-size: 1.7vh;
+        font-family: 'Poppins', sans-serif; 
+        text-align: center;
+        color:#17B6FE;
+        font-weight: bold;
+        margin-bottom: 10%;
+    }
+
+
+    /* Sweet alert */
+    #sweetalert_container_Mobile{
+        display: none;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        inset: 0;
+        height: 100vh;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 5;
+    }
+    #sweetalert_container_Mobile #succes_alert_Mobile{
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        height: 50%;
+        width: 85%;
+        background-color: #ffffff;
+        border-radius: 20px;
+    }
+    #sweetalert_container_Mobile #succes_alert_Mobile #alert_div{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #sweetalert_container_Mobile #succes_alert_Mobile #alert_div #gif_alert{
+        height: 40%;
+        width: auto;
+    }
+    #sweetalert_container_Mobile #succes_alert_Mobile #alert_div #thankyou{
+        margin: 3% 0%;
+        font-size: 3vh;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        color: #1ac8db;
+    }
+    #sweetalert_container_Mobile #succes_alert_Mobile #alert_div .message_alert{
+        margin: 0%;
+        font-size: 2.3vh;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(99, 99, 99);
+        width: 90%;
+        text-align: center;
+    }
+    #sweetalert_container_Mobile #succes_alert_Mobile #alert_div #close_alert_Mobile{
+        margin-top: 5%;
+        width: 70%;
+        padding: 4% 0%;
+        font-size: 2vh;
+        border: none;
+        background-color: #1ac8db;
+        font-family: 'Poppins', sans-serif;
+        color: #ffff;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    #sweetalert_container_Mobile #succes_alert_Mobile #alert_div #close_alert_Mobile:hover{
+        opacity: 80%;
+    }
+        
+}

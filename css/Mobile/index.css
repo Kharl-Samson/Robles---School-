@@ -1,0 +1,281 @@
+/* Smartphones (portrait and landscape) ----------- */
+ @media only screen 
+ and (min-device-width : 320px) 
+ and (max-device-width : 480px){
+    .for_mobile #up #content{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding-top: 30%;
+        padding-bottom: 15%;
+    }
+    .for_mobile #up #content #welcome{
+        color: #7D8790;
+        font-family: futuraBold;
+        font-weight: bold;
+        margin: 0%;
+        font-size: 15px;
+        margin-left: 15%;
+    }
+    .for_mobile #up #content #header_mob{
+        margin: 0%;
+        margin-left: 15%;
+        margin-right: 15%;
+        height: auto;
+        width: auto;
+        font-size: 35px;
+        font-family: futuraBold;
+        text-align: left;
+        color: #eeeeee;
+        white-space: nowrap;
+    }
+    .for_mobile #up #content #text_mob{
+        margin: 0%;
+        margin-top: 2%;
+        margin-left: 15%;
+        margin-right: 10%;
+        font-size: 16px;
+        font-family: futura;
+        color: rgb(71, 70, 70);
+        text-align: left;
+    }
+    .for_mobile #up #content img{
+        margin: 0% auto;
+        margin-top: 5%;
+        height: auto;
+        width: 50%;
+    }
+    .for_mobile #up #content #appointment_btn{
+        margin: 0% auto;
+        margin-top: 5%;
+        font-size: 2.3vh;
+        color: #7D8790;
+        background-image: linear-gradient(to right top, #ffffff, #edf7ff, #caf3ff, #a3f0f7, #90ebd4);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border: none;
+        white-space: nowrap;
+        padding: 10px 5%;
+        border-radius: 20px;
+        font-family: futuraBold;
+        width: auto;
+        margin-bottom: 20%;
+    }
+    .for_mobile #our_best{
+        height: auto;
+        width: 100%;
+    }
+    .for_mobile #our_best #headT{
+        font-size: 30px;
+        margin: 0%;
+        font-family: futurabold;
+        color: #4C545B;
+        text-align: center;
+    }
+    .for_mobile #our_best #box_content{
+        height: auto;
+        width: 90%;
+        margin: 0% auto;
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .for_mobile #our_best #box_content #box{
+        height: 18vh;
+        width: 18vh;
+        background-color: #97C3F9;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: futura;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+        font-size: 10px;
+        color: #fff;
+    }
+    .for_mobile #our_best #box_content #box img{
+        height: 40%;
+        width: auto;
+        margin-bottom: 10%;
+    }
+    .for_mobile #sub_content_1{
+        height: auto;
+        width: 80%;
+        margin: 0% auto;
+        margin-top: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 8%;
+    }
+    .for_mobile #sub_content_1 #left{
+        height: 30vh;
+        width: 80%;
+        background-image: url(../../images/index_carousel_bg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .for_mobile #carousel_container{
+        height: 65%;
+        width: 80%;
+        border-radius: 20px;
+        position: absolute; 
+    }
+    .for_mobile #carousel_container img{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .for_mobile #Vision{
+        margin: 0%;
+        font-size: 30px;
+        text-align: center;
+        font-family: futurabold;
+        color: #4C545B;
+        margin-bottom: 5%;
+    }
+    .for_mobile #vision_content{
+        font-size: 16px;
+        margin: 0% 10%;
+        text-align: center;
+        color: #4C545B;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 20%;
+    }
+    .for_mobile #getIntouch{
+        width: 100%;
+        height: auto;
+        background-image: linear-gradient(to right top, #54cff9, #00daf7, #00e4ec, #00edd6, #00f3b9);
+        padding: 10% 0%;
+    }
+    .for_mobile #getIntouch #a{
+        font-size: 12px;
+        text-align: center;
+        margin: 0%;
+        color: rgb(61, 168, 230);
+        letter-spacing: 3px;
+        font-family: futurabold;
+        margin-left: 1.2%;
+    }
+    .for_mobile #getIntouch #b{
+        font-size: 35px;
+        text-align: center;
+        margin: 0%;
+        margin-top: -1%;
+        color: #4C545B;
+        letter-spacing: 3px;
+        font-family: futurabold;
+    }
+    .for_mobile #getIntouch #bot{
+        margin-top: 5%;
+        height: auto;
+        width: 100%;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .for_mobile #getIntouch #bot .box{
+        padding: 0% 2%;
+        height: 18vh;
+        width: 18vh;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        margin: 0% 2%;
+        margin-top: .5%;
+        display: flex;
+        flex-direction: column;
+        transition: .5s;
+    }
+    .for_mobile #getIntouch #bot .box img{
+        height: auto;
+        width: 22%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 10%;
+    }
+    .for_mobile #getIntouch #bot .box #a{
+        font-size: 14px;
+        color: #23A6F0;
+        font-family: futuraBold;
+        margin: 0%;
+        text-align: left;
+        margin-bottom: 2%;
+        margin-left: 10%;
+        text-transform: uppercase;
+        font-weight: bolder;
+        letter-spacing: 0ch;
+    }
+    .for_mobile #getIntouch #bot .box #b{
+        font-size: 12px;
+        text-align: left;
+        color: #23A6F0;
+        font-family: futura;
+        font-weight: bold;
+        margin: 0%;
+        margin-left: 10%;
+        letter-spacing: 0ch;
+    }
+ 
+ }
+
+
+
+
+
+/* tablets */
+@media only screen and (min-width: 768px)  and (max-device-width : 768px) {
+
+    .for_mobile #up #content{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .for_mobile #up #content #header_mob{
+        margin: 0%;
+        height: auto;
+        width: auto;
+        margin-top: 30%;
+        font-size: 5vh;
+        text-shadow: 2px 7px 5px rgba(0,0,0,0.3),0px -4px 10px rgba(255,255,255,0.3);
+        font-family: futuraBold;
+        color: #7D8790;
+    }
+    .for_mobile #up #content #text_mob{
+        margin: 0%;
+        margin-top: 2%;
+        font-size: 2.5vh;
+        font-family: futura;
+        color: rgb(71, 70, 70);
+        text-align: center;
+        padding: 0% 5%;
+    }
+    .for_mobile #up #content img{
+        margin-top: 5%;
+        height: 28vh;
+        width: auto;
+    }
+    .for_mobile #up #content #appointment_btn{
+        margin-top: 5%;
+        font-size: 2.3vh;
+        color: #7D8790;
+        background-image: linear-gradient(to right top, #fffacd, #e7f7c7, #ccf4c6, #aff0cb, #90ebd4);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border: none;
+        padding: 10px 25px;
+        border-radius: 20px;
+        font-family: futuraBold;
+        margin-bottom: 25%;
+    }
+}

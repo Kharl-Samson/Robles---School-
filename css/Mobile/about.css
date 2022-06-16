@@ -1,0 +1,286 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
+
+    .for_mobile #up #content{
+        padding-top: 20%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        padding-bottom: 40%;
+    }
+    .for_mobile #up #content #about_header{
+        width: 83%;
+        margin:0% auto;
+        margin-top: 25%;
+    }
+    .for_mobile #up #content #about_header p{
+        font-size: 30px;
+        font-family: futuraBold;
+        margin: 0%;
+        text-align: center;
+        width: auto;
+        font-weight: 600;
+        color: #ffffff;
+    }
+    .for_mobile #up #content #about_img_mobile{
+        height: auto;
+        max-width: 70%;
+        margin-top: 15%;
+    }
+    .for_mobile #content2{
+        width: 100%;
+        height: auto;
+    }
+    .for_mobile #content2 .about_robles_img{
+        height: auto;
+        max-width: 90%;
+        margin-top: 8%;
+    }
+    .for_mobile #content3{
+        margin: 0% auto;
+        padding: 2%;
+        width: 80%;
+        height: auto;
+        background-color: #e5f6ff;
+        border-radius: 10px;
+    }
+    .for_mobile #content3 #compName{
+        font-family: futuraBold;
+        font-size: 20px;
+        margin: 0%;
+        margin-left: 10%;
+        color:#60d8e7;
+    }
+    .for_mobile #content3 p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        margin: 5% 10%;
+    }
+    .for_mobile #content3 div{
+        height: auto;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2% 2px;
+        margin: 5% 10%;
+        background-color: #976b9e;
+        border-radius: 20px;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+    }
+    .for_mobile .about_robles_img{
+        height: auto;
+        width: 80%;
+        margin-top: 15%;
+    }
+    .for_mobile #getIntouch{
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
+        background-image: linear-gradient(to right top, #54cff9, #00daf7, #00e4ec, #00edd6, #00f3b9);
+        padding: 10% 0%;
+    }
+    .for_mobile #getIntouch #line{
+        margin: 0% auto;
+        margin-bottom: 2%;
+        width: 40%;
+        height: 1.2vh;
+        background-color: rgb(61, 168, 230);
+        letter-spacing: 3px;
+        font-family: futurabold;
+    }
+    .for_mobile #getIntouch #b{
+        font-size: 20px;
+        text-align: center;
+        margin: 0%;
+        color: #4C545B;
+        font-family: futurabold;
+    }
+    .for_mobile #getIntouch #bot{
+        margin-top: 5%;
+        height: auto;
+        width: 100%;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .for_mobile #getIntouch #bot .values_about{
+        height: 18vh;
+        width: 18vh;
+        background-color: #f3f3f3;
+        border-radius: 15px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        margin: 0% 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        font-family: futuraBold;
+        color: #4C545B;
+        font-size: 12px;
+        text-transform: uppercase;
+        transition: .3s ease-in;
+    }
+    .for_mobile #getIntouch #bot .values_about img{
+        height: 40%;
+        width: auto;
+    }
+    
+    .for_mobile #content4{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20%;
+        background-color: #f5f5f5;
+    }
+    .for_mobile #content4 .location_text{
+        font-size: 30px;
+        margin: 0%;
+        text-align: center;
+        font-family: futuraBold;
+        color: #4C545B;
+        font-weight: 500;
+        margin-top: 15%;
+        margin-bottom: 2%;
+    }
+    .for_mobile #content4 .location_text img{
+        height: 8vh;
+        margin-left: 4%;
+        margin-top: -2%;
+        width: auto;
+    }
+    .for_mobile #content4 .location_subtext{
+        width: 80%;
+        margin: 0% auto;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        color: #4C545B;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        margin-bottom:3%;
+    }
+    .for_mobile #content4 .location_subtext img{
+        height: 3.5vh;
+        width: auto;
+        margin-right: 5%;
+    }
+   
+}
+
+
+
+/* tablets */
+@media only screen and (min-width: 768px)  and (max-device-width : 768px) {
+    .for_mobile #up #content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .for_mobile #up #content #about_header{
+        width: 83%;
+        margin:0% auto;
+        margin-top: 25%;
+    }
+    .for_mobile #up #content #about_header p{
+        font-size: 7vw;
+        font-family: futuraBold;
+        margin: 0%;
+        width: auto;
+        font-weight: 600;
+        color: #7D8790;
+    }
+    .for_mobile #up #content #about_img_mobile{
+        height: auto;
+        max-width: 70%;
+        margin-top: 10%;
+    }
+    .for_mobile #content2{
+        width: 100%;
+        height: auto;
+        background-image: url(../../images/about_subBG.png);
+        background-position: left 50%;
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-color: #f5f5f5;
+    }
+    .for_mobile #content2 .about_robles_img{
+        height: auto;
+        max-width: 90%;
+        margin-top: 8%;
+    }
+    .for_mobile #content3{
+        width: 100%;
+        height: auto;
+        background-image: url(../../images/about_subBG1.png);
+        background-position: right 100%;
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-color: #f5f5f5;
+    }
+    .for_mobile #content3 .ourHistory_text{
+        font-size: 5vh;
+        margin: 0%;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        color: #7D8790;
+        font-weight: 500;
+        margin-bottom: 2%;
+        margin-top: 3%;
+    }
+    .for_mobile #content3 .ourHistory_subtext{
+        font-size: 2.5vh;
+        margin: 5px 80px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        color: #616a72;
+        margin-top: 3%;
+    }
+    .for_mobile #content4{
+        width: 100%;
+        height: auto;
+        background-image: url(../../images/about_subBG.png);
+        background-position: left 100%;
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-color: #f5f5f5;
+    }
+    .for_mobile #content4 .location_text{
+        font-size: 5vh;
+        margin: 0%;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        color: #7D8790;
+        font-weight: 500;
+        margin-top: 10%;
+        margin-bottom: 2%;
+    }
+    .for_mobile #content4 img{
+        height: auto;
+        width: 80%;
+        margin-right: 8%;
+        margin-top: 3%;
+    }
+    .for_mobile #content4 .about_address_subtext{
+        font-size: 2.5vh;
+        margin: 0%;
+        margin-bottom: 2px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        color: #61686e;
+        font-weight: bolder;
+    }
+    .for_mobile #content4  .about_address_subtext a{
+        color: #61686e;
+    }
+    .for_mobile #content4  .about_address_subtext a:hover{
+        color: black;
+    }
+}

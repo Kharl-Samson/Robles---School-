@@ -1,0 +1,362 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
+
+    .for_mobile #up #contents{
+        padding-top: 25%;
+        padding-bottom: 35%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .for_mobile #up #contents #header_mob{
+        margin: 0%;
+        margin-top: 10%;
+        height: auto;
+        width: auto;
+        font-size: 4vh;
+        font-family: futuraBold;
+        color: #7D8790;
+    }
+    .for_mobile #up #contents #text_mob{
+        margin: 0%;
+        margin-top: 3%;
+        font-size: 2.3vh;
+        font-family: futura;
+        color: rgb(71, 70, 70);
+        text-align: center;
+        padding: 0% 5%;
+    }
+    .for_mobile #up #contents img{
+        width: 60%;
+        height: auto;
+        margin: 0% auto;
+        margin-top: 5%;
+    }
+    .for_mobile #up #contents #learn_more_employee_mobile{
+        margin-top: 5%;
+        font-size: 2.3vh;
+        color: #7D8790;
+        background-image: linear-gradient(to right top, #ffffff, #edf7ff, #caf3ff, #a3f0f7, #90ebd4);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border: none;
+        padding: 10px 45px;
+        border-radius: 20px;
+        font-family: futuraBold;
+    }
+    #content_team_header{
+        padding-top: 20%;
+        width: 100%;
+        height: auto;
+        background-image: url(../../images/about_subBG.png);
+        background-position: left 100%;
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-color: #f5f5f5;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .for_mobile #content_team_header #team_header{
+        height: 8vh;
+        width: 85%;
+        background-color: #78CCF2;
+        margin: 0% auto;
+        margin-top: -20%;
+        margin-bottom: 12%;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3vh;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-weight: bold;
+    }
+     #img_container{
+        height: auto;
+        width: 70%;
+        border-radius: 20px;
+        background: rgba( 255, 255, 255, 0.1 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 0px );
+        -webkit-backdrop-filter: blur( 0px );
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+    #img_container img{
+        height: 100%;
+        width: 100%;
+        margin-top: 7%;
+        margin-bottom: -7%;
+        margin-left: -7%;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .for_mobile #content2_emp_mobile{
+        padding-top: 17%;
+        width: 100%;
+        height: auto;
+        background-image: url(../../images/about_subBG.png);
+        background-position: left 100%;
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-color: #f5f5f5;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .for_mobile #content2_emp_mobile, .for_mobile #content4_emp_mobile,.for_mobile #content6_emp_mobile{
+        background-image: url(../../images/about_subBG1.png);
+        background-position: right 100%;
+    }
+    .for_mobile #content2_emp_mobile{
+        padding-top: 0%;
+    }
+    #emp_name_mobile{
+        margin-top: 13%;
+        margin-bottom: 2%;
+        height: 8vh;
+        width: 84%;
+        background-color: #78CCF2;
+        box-shadow: 5px 5px rgb(163, 163, 163);
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 2.5vh;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+    }
+    #quote_container{
+        margin-top: 5%;
+        height: auto;
+        width: 75%;
+        border-radius: 10px;
+        background: rgba( 255, 255, 255, 0.1 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 0px );
+        -webkit-backdrop-filter: blur( 0px );
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 0% 5%;
+        margin-bottom: 20%;
+    }
+    #quote_container #quote_mobile{
+        font-size: 2.5vh;
+        color: #000;
+        font-family: 'Poppins', sans-serif;
+        margin: 0%;
+        margin-top: 5%
+    }
+    #quote_container #quote_content_mobile{
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.3vh;
+        color: #353535;
+        font-style: italic;
+        text-align: center;
+    }
+    #quote_container #quoted_by_mobile{
+        font-size: 2.5vh;
+        color: #000;
+        font-family: 'Poppins', sans-serif;
+        width: 100%;
+        text-align: right;
+        margin: 0%;
+        margin-bottom: 5%;
+    }
+
+}
+
+
+
+/* tablets */
+@media only screen and (min-width: 768px)  and (max-device-width : 768px) {
+
+    .for_mobile #up #contents{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .for_mobile #up #contents #header_mob{
+        margin: 0%;
+        margin-top: 15%;
+        height: auto;
+        width: auto;
+        font-size: 4vh;
+        font-family: futuraBold;
+        color: #7D8790;
+    }
+    .for_mobile #up #contents #text_mob{
+        margin: 0%;
+        margin-top: 2%;
+        font-size: 2.3vh;
+        font-family: futura;
+        color: rgb(71, 70, 70);
+        text-align: center;
+        padding: 0% 5%;
+    }
+    .for_mobile #up #contents div{
+        margin-top: 10%;
+        height: auto;
+        width: 75%;
+        border-radius: 10px;
+        background: rgba( 255, 255, 255, 0.1 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 0px );
+        -webkit-backdrop-filter: blur( 0px );
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+    .for_mobile #up #contents div img{
+        height: 100%;
+        width: 100%;
+        transform: rotate(8deg);
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .for_mobile #up #contents #learn_more_employee_mobile{
+        margin-top: 10%;
+        font-size: 2.3vh;
+        color: #7D8790;
+        background-image: linear-gradient(to right top, #fffacd, #e7f7c7, #ccf4c6, #aff0cb, #90ebd4);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border: none;
+        padding: 10px 45px;
+        border-radius: 20px;
+        font-family: futuraBold;
+    }
+    #content_team_header{
+        padding-top: 17%;
+        width: 100%;
+        height: auto;
+        background-image: url(../../images/about_subBG.png);
+        background-position: left 100%;
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-color: #f5f5f5;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .for_mobile #content_team_header #team_header{
+        height: 8vh;
+        width: 85%;
+        background-color: #78CCF2;
+        margin: 0% auto;
+        margin-bottom: 12%;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3vh;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-weight: bold;
+    }
+     #img_container{
+        height: auto;
+        width: 70%;
+        border-radius: 20px;
+        background: rgba( 255, 255, 255, 0.1 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 0px );
+        -webkit-backdrop-filter: blur( 0px );
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+    #img_container img{
+        height: 100%;
+        width: 100%;
+        margin-top: 7%;
+        margin-bottom: -7%;
+        margin-left: -7%;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .for_mobile #content2_emp_mobile, .for_mobile #content3_emp_mobile , .for_mobile #content4_emp_mobile, .for_mobile #content5_emp_mobile, .for_mobile #content6_emp_mobile{
+        padding-top: 17%;
+        width: 100%;
+        height: auto;
+        background-image: url(../../images/about_subBG.png);
+        background-position: left 100%;
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-color: #f5f5f5;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .for_mobile #content2_emp_mobile, .for_mobile #content4_emp_mobile,.for_mobile #content6_emp_mobile{
+        background-image: url(../../images/about_subBG1.png);
+        background-position: right 100%;
+    }
+    .for_mobile #content2_emp_mobile{
+        padding-top: 0%;
+    }
+    #emp_name_mobile{
+        margin-top: 13%;
+        margin-bottom: 2%;
+        height: 8vh;
+        width: 84%;
+        background-color: #1ac8db;
+        box-shadow: 5px 5px rgb(163, 163, 163);
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 2.5vh;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+    }
+    #quote_container{
+        margin-top: 5%;
+        height: auto;
+        width: 75%;
+        border-radius: 10px;
+        background: rgba( 255, 255, 255, 0.1 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 0px );
+        -webkit-backdrop-filter: blur( 0px );
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 0% 5%;
+    }
+    #quote_container #quote_mobile{
+        font-size: 2.5vh;
+        color: #000;
+        font-family: 'Poppins', sans-serif;
+        margin: 0%;
+        margin-top: 5%
+    }
+    #quote_container #quote_content_mobile{
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.3vh;
+        color: #353535;
+        font-style: italic;
+        text-align: center;
+    }
+    #quote_container #quoted_by_mobile{
+        font-size: 2.5vh;
+        color: #000;
+        font-family: 'Poppins', sans-serif;
+        width: 100%;
+        text-align: right;
+        margin: 0%;
+        margin-bottom: 5%;
+    }
+
+}

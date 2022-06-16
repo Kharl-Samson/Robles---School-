@@ -1,0 +1,174 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
+
+    .for_mobile #up{
+        padding-top: 10%;
+        width: 100%;
+        height: auto;
+        background-image: url(../../images/body_bg_mobile.png);
+        background-position: center center;
+        background-repeat: no-repeat; 
+        background-size: cover;
+        background-color:whitesmoke;
+    }
+    .for_mobile #up #content_mobile{
+        height: auto;
+        width: 100%;
+    }
+    .for_mobile #up #content_mobile #inquiry_text{
+        margin: 0;
+        margin-top: 20%;
+        font-size: 5vh;
+        font-family: futuraBold;
+        color: rgb(99, 99, 99);
+        text-align: center;
+        text-shadow: 2px 7px 5px rgba(0,0,0,0.3),0px -4px 10px rgba(255,255,255,0.3);
+    }
+    .for_mobile #up #content_mobile img{
+        width: 60%;
+        height: auto;
+        margin-top: 5%;
+    }
+    .for_mobile #up #content_mobile form{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        height: 70vh;
+    }
+    .for_mobile #up #content_mobile form .input_one{
+        width: 80%;
+        height: 7vh;
+        border: 1px solid rgb(206, 206, 206);
+        background-color: #f8f6f6;
+        border-radius: 5px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2vh;
+        text-indent: 10px;
+    }
+    .for_mobile #up #content_mobile form .input_two{
+        width: 79%;
+        height: 16vh;
+        padding: 4% 1%;
+        border: 1px solid rgb(206, 206, 206);
+        background-color: #f8f6f6;
+        border-radius: 5px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2vh;
+        text-indent: 10px;
+        resize: none;
+    }
+    .for_mobile #up #content_mobile form #validation_inquiryM{
+        margin: 0%;
+        visibility: hidden;
+        font-size: 1.8vh;
+        color: red;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+    .for_mobile #up #content_mobile form button{
+        margin-bottom: 4%;
+        font-size: 2vh;
+        color: #7D8790;
+        background-image: linear-gradient(to right top, #ffffff, #edf7ff, #caf3ff, #a3f0f7, #90ebd4);
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border: none;
+        padding: 3.5% 10%;
+        border-radius: 20px;
+        font-family: futuraBold;
+        z-index: 1;
+    }
+    .for_mobile #up #content_mobile form button:hover{
+        background-image: linear-gradient(to right top, #90e7eb, #8eecda, #9eefc2, #b9efa8, #dceb90);
+    }
+}
+
+
+
+/* tablets */
+@media only screen and (min-width: 768px)  and (max-device-width : 768px) {
+    .for_mobile #up{
+        width: 100%;
+        height: 130vh;
+        background-image: url(../../images/body_bg_mobile.png);
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat; 
+        background-size: cover;
+        background-color:whitesmoke;
+    }
+    .for_mobile #up #content_mobile{
+        height: auto;
+        width: 100%;
+    }
+    .for_mobile #up #content_mobile #inquiry_text{
+        margin: 0;
+        margin-top: 20%;
+        font-size: 5vh;
+        font-family: futuraBold;
+        color: rgb(99, 99, 99);
+        text-align: center;
+        text-shadow: 2px 7px 5px rgba(0,0,0,0.3),0px -4px 10px rgba(255,255,255,0.3);
+    }
+    .for_mobile #up #content_mobile img{
+        width: 60%;
+        height: auto;
+        margin-top: 5%;
+    }
+    .for_mobile #up #content_mobile form{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        height: 70vh;
+    }
+    .for_mobile #up #content_mobile form .input_one{
+        width: 70%;
+        height: 7vh;
+        border: 1px solid rgb(206, 206, 206);
+        background-color: #f8f6f6;
+        border-radius: 5px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2vh;
+        text-indent: 10px;
+    }
+    .for_mobile #up #content_mobile form .input_two{
+        width: 69%;
+        height: 16vh;
+        padding: 4% 1%;
+        border: 1px solid rgb(206, 206, 206);
+        background-color: #f8f6f6;
+        border-radius: 5px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2vh;
+        text-indent: 10px;
+        resize: none;
+    }
+    .for_mobile #up #content_mobile form #validation_inquiryM{
+        margin: 0%;
+        visibility: hidden;
+        font-size: 1.8vh;
+        color: red;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+    .for_mobile #up #content_mobile form button{
+        margin-bottom: 4%;
+        font-size: 2vh;
+        color: #7D8790;
+        background-image: linear-gradient(to right top, #fffacd, #e7f7c7, #ccf4c6, #aff0cb, #90ebd4);
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border: none;
+        padding: 3.5% 10%;
+        border-radius: 50px;
+        font-family: futuraBold;
+        z-index: 1;
+    }
+    .for_mobile #up #content_mobile form button:hover{
+        background-image: linear-gradient(to right top, #90e7eb, #8eecda, #9eefc2, #b9efa8, #dceb90);
+    }
+}
+
+

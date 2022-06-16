@@ -1,0 +1,398 @@
+body{
+    overflow-x: hidden;
+}
+
+#up{
+    height: 120vh;
+    width: 100%;
+    background-image: url(../../images/body_bgLight.png);
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#up #content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#up #content .left_content_index{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -110vh;
+}
+#up #content #left .ourVision{
+    margin: 0%;
+    margin-top: -25%;
+    margin-left: 30%;
+    width: auto;
+    font-size: 3vh;
+    font-family: futura;
+    margin-bottom: 1%;
+    color: #ffffff;
+    font-weight: bolder;
+}
+#up #content #left .ourVision1{
+    margin: 0%;
+    margin-left: 30%;
+    width: auto;
+    font-size: 9vh;
+    font-family: futuraBold;
+    color: #ffff;
+    font-weight: bold;
+}
+#up #content #left .ourVision2{
+    margin: 0%;
+    margin-left: 30%;
+    width: auto;
+    font-size: 9vh;
+    margin-top: -2%;
+    font-family: futuraBold;
+    margin-bottom: 1%;
+    font-weight: bold;
+    color: #ffff;
+    white-space: nowrap;
+}
+#up #content #left #text{
+    margin: 0%;
+    margin-left: 30%;
+    width: 65%;
+    font-size: 3vh;
+    font-family: futura;
+    color: rgb(255, 255, 255);
+}
+#up #content #left #appointment_btn{
+    margin-left: 30%;
+    margin-top: 3%;
+    font-size: 2.3vh;
+    color: #7D8790;
+    background-image: linear-gradient(to right top, #ffffff, #edf7ff, #caf3ff, #a3f0f7, #90ebd4);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: none;
+    padding: 11px 35px;
+    border-radius: 25px;
+    font-family: futurabold;
+    z-index: 1;
+}
+#up #content #left #appointment_btn:hover{
+    background-image: linear-gradient(to right top, #90e7eb, #8eecda, #9eefc2, #b9efa8, #dceb90);
+}
+#up #content #right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content:flex-start;
+}
+#up #content #right img{
+    height: 58%;
+    min-width: 57.5%;
+    margin-top: -60%;
+    margin-left: 500vh;
+}
+
+#sub_content{
+    margin-top: -5%;
+    height: auto;
+    width: 100%;
+}
+#sub_content #Ourbest{
+    margin: 0% auto;
+    color: #4C545B;
+    font-size: 6vh;
+    font-family: futurabold;
+    text-align: center;
+}
+#best_ser_content{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#best_ser_content .box{
+    margin: 0% 2%;
+    width: 29vh;
+    height: 100%;
+    background-color: #D99AA5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: futura;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: 2.3vh;
+    color: #fff;
+    transition: .5s;
+}
+#best_ser_content .box img{
+    height: 40%;
+    width: auto;
+    margin-bottom: 10%;
+}
+#best_ser_content .box:hover{
+    margin-top: -5%;
+    background-color: rgb(226, 225, 225);
+    color: #97C3F9;
+}
+
+#sub_content_1{
+    height: 60vh;
+    width: 80%;
+    margin: 0% auto;
+    margin-top: 10%;
+    display: flex;
+    margin-bottom: 8%;
+}
+#sub_content_1 #left{
+    height: 100%;
+    width: 45%;
+    background-image: url(../../images/index_carousel_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#carousel_container{
+    height: 65%;
+    width: 80%;
+    border-radius: 20px;
+    position: absolute; 
+}
+#carousel_container img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+#sub_content_1 #right{
+    height: 100%;
+    margin-left: 5%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#sub_content_1 #right #vision_header{
+    margin: 0%;
+    font-size: 7vh;
+    font-family: futurabold;
+    color: #4C545B;
+}
+#sub_content_1 #right #vision_content{
+    font-size: 3vh;
+    color: #4C545B;
+    font-family: 'Poppins', sans-serif;
+}
+
+#getInTouch{
+    height: 60vh;
+    width: 100%;
+    background-color: #FFB5C3;
+}
+#getInTouch #top{
+    height: 30%;
+    padding-top: 2%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#getInTouch #top #a{
+    font-size: 3vh;
+    margin: 0%;
+    color: #ffff;
+    letter-spacing: 3px;
+    font-family: futurabold;
+    margin-left: 1.2%;
+}
+#getInTouch #top #b{
+    font-size: 10vh;
+    margin: 0%;
+    margin-top: -1%;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    font-family: futurabold;
+}
+#getInTouch #bot{
+    height: 60%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#getInTouch #bot .box{
+    padding: 0% 2%;
+    height: 80%;
+    width: 23vh;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 0% 2%;
+    margin-top: .5%;
+    display: flex;
+    flex-direction: column;
+    transition: .5s;
+}
+#getInTouch #bot .box img{
+    height: auto;
+    width: 22%;
+    margin-top: 25%;
+    margin-bottom: 15%;
+}
+#getInTouch #bot .box #a{
+    font-size: 2.3vh;
+    color: #23A6F0;
+    font-family: futuraBold;
+    margin: 0%;
+    margin-bottom: 2%;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+#getInTouch #bot .box #b{
+    font-size: 2.2vh;
+    color: #23A6F0;
+    font-family: futura;
+    font-weight: bold;
+    margin: 0%;
+}
+
+
+
+@media only screen 
+and (max-device-width : 1921px) 
+and (max-device-height : 1081px){
+    #up{
+        background-size: 110%;
+    }
+}
+
+
+@media only screen 
+and (max-device-width : 1681px) 
+and (max-device-height : 1051px){
+    #up{
+        background-size: 110%;
+    }
+}
+
+
+@media only screen 
+and (max-device-width : 1281px) 
+and (max-device-height : 1025px){
+    #up{
+        background-position: top left;
+    }
+    #up #content #left #appointment_btn{
+        margin-bottom: 10%;
+    }
+}
+
+
+@media only screen 
+and (max-device-width : 1281px) 
+and (max-device-height : 961px){
+    #up{
+        background-size: 120%;
+    }
+    #up #content #left .ourVision1{
+        font-size: 7vh;
+    }
+    #up #content #left .ourVision2{
+        font-size: 7vh;
+    }
+    #up #content #left .ourVision{
+        margin-top: -40%;
+    }
+    #up #content #right img{
+        height: 53%;
+        min-width: 51.5%;
+    }
+    #sub_content{
+        margin-top: -22%;
+    }
+}
+
+@media only screen 
+and (max-device-width : 1281px) 
+and (max-device-height : 721px){
+    #up{
+        height: 130vh;
+        background-size: 100%;
+    }
+    #up #content #left .ourVision1{
+        font-size: 9vh;
+    }
+    #up #content #left .ourVision2{
+        font-size: 9vh;
+    }
+    #up #content #left .ourVision{
+        margin-top: -40%;
+    }
+    #up #content #right img{
+        height: 53%;
+        min-width: 51.5%;
+    }
+    #sub_content{
+        margin-top: -12%;
+    }
+}
+
+
+@media only screen 
+and (max-device-width : 1025px) 
+and (max-device-height : 769px){
+    #up{
+        background-size: 125%;
+    }
+    #up #content #left .ourVision1{
+        font-size: 8.5vh;
+    }
+    #up #content #left .ourVision2{
+        font-size: 8.5vh;
+    }
+    #up #content #left .ourVision{
+        margin-top: -40%;
+    }
+    #up #content #right img{
+        height: 53%;
+        min-width: 51.5%;
+    }
+    #sub_content{
+        margin-top: -17%;
+    }
+}
+
+@media only screen 
+and (max-device-width : 801px) 
+and (max-device-height : 601px){
+    #up{
+        background-size: 120%;
+    }
+    #up #content #left .ourVision1{
+        font-size: 8.5vh;
+    }
+    #up #content #left .ourVision2{
+        font-size: 8.5vh;
+    }
+    #up #content #right img{
+        height: 55%;
+        min-width: 53.5%;
+    }
+    #up #content #left .ourVision{
+        margin-top: -35%;
+    }
+    #sub_content{
+        margin-top: -15%;
+    }
+}

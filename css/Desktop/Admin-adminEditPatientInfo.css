@@ -1,0 +1,503 @@
+.right_content_dashboard{
+    height: auto;
+    width: 79%;
+    margin-left: 21%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.right_content_dashboard #dashboard_top{
+    margin-top: 1.4%;
+    margin-bottom: 1%;
+    width: 94%;
+    border-radius: 5px;
+    height: 8vh;
+    background-color: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+}
+.right_content_dashboard #dashboard_top #dash_left{
+    width: 50%;
+    height: 100%;
+    border-radius: 5px;
+    padding-left: 2%;
+    display: flex;
+    align-items: center;
+    background: -webkit-linear-gradient(#FD749B, #281AC8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+    font-size: 2.7vh
+}
+.right_content_dashboard #dashboard_top #dash_right{
+    width: 50%;
+    height: 100%;
+    border-radius: 5px;
+    padding-left: 2%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.right_content_dashboard #dashboard_top #dash_right #notification_container{
+    height: 100%;
+    width: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 0%;
+}
+.right_content_dashboard #dashboard_top #dash_right #notification_container img{
+    height: 60%;
+    width: auto;
+}
+.right_content_dashboard #dashboard_top #dash_right #notification_container img:hover{
+    cursor: pointer;
+    opacity: 60%;
+}
+.right_content_dashboard #dashboard_top #dash_right #notification_container #notif_count{
+    height: 2.5vh;
+    width: 2.5vh;
+    border: 3px solid white;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.9vh;
+    font-weight: bold;
+    color: #ffff;
+    margin-left: -20%;
+    margin-top: -50%;
+}
+.right_content_dashboard #dashboard_top #dash_right #profile_container{
+    margin-left: 1%;
+    padding-right: 5%;
+    padding-left: 1%;
+    border-radius: 15px;
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.right_content_dashboard #dashboard_top #dash_right #profile_container:hover{
+    cursor: pointer;
+    opacity: 60%;
+}
+.right_content_dashboard #dashboard_top #dash_right #profile_container #profile_img{
+    height: 7vh;
+    width: 7vh;
+}
+.right_content_dashboard #dashboard_top #dash_right #profile_container #name_profile{
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 3%;
+}
+.right_content_dashboard #dashboard_top #dash_right #profile_container #name_profile p{
+    margin: 0%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.right_content_dashboard #dashboard_top #dash_right #profile_container #name_profile #name_text{
+    font-size: 2vh;
+    font-weight: bold;
+    color: #404040;
+}
+.right_content_dashboard #dashboard_top #dash_right #profile_container #name_profile #role_text{
+    font-size: 1.8vh;
+    color: #8b8b8b;
+    white-space: nowrap;
+}
+
+
+.right_content_dashboard #dashboard_content{
+    height: auto;
+    width: 94%;
+}
+.right_content_dashboard #dashboard_content #top_Patient{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.right_content_dashboard #dashboard_content #top_Patient #left{
+    width: auto;
+    white-space: nowrap;
+    height: 99%;
+    padding-top: 1%;
+    font-size: 4vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-left: 2%;
+    color: #797878;
+}
+.right_content_dashboard #dashboard_content #top_Patient #right{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.right_content_dashboard #dashboard_content #top_Patient #right #date{
+    background: -webkit-linear-gradient(#FD749B, #281AC8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+    margin: 0%;
+    margin-top: 1%;
+    font-size: 3.3vh
+}
+.right_content_dashboard #dashboard_content #top_Patient #right #time{
+    font-size: 2.5vh;
+    margin: 0%;
+    font-weight: bold;
+    color: #797878;
+    margin-top: 1%;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.right_content_dashboard #dashboard_content #addpatient_div{
+    margin-top: 1.5%; 
+    margin-bottom: 2%;
+    margin-left: 100%; /*0% dapat*/
+    display: block;
+    height: auto;
+    width: 100%;
+    border-bottom: 10px solid #5fb1f2;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.right_content_dashboard #dashboard_content #addpatient_div #info_header{
+    height: 8vh;
+    width: 100%;
+    background-color: #97C3F9;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 3vh;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+.right_content_dashboard #dashboard_content #addpatient_div #info_header img{
+    height: 50%;
+    width: auto;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+.right_content_dashboard #dashboard_content #addpatient_div #row1_inp{
+    height: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0% auto;
+}
+.right_content_dashboard #dashboard_content #addpatient_div #row1_inp .col{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0% 1.7%;
+    margin-bottom: 2%;
+}
+.right_content_dashboard #dashboard_content #addpatient_div #row1_inp .col label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vh;
+    margin-bottom: 1.2%;
+    margin-left: 1vh;
+}
+.right_content_dashboard #dashboard_content #addpatient_div #row1_inp .col input{
+    height: 6vh;
+    width: 98%;
+    border: 1px solid rgb(206, 206, 206);
+    background-color: #f8f6f6;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vh;
+    text-indent: 10px;
+}
+.right_content_dashboard #dashboard_content #addpatient_div #row1_inp .col select{
+    height: 6vh;
+    width: 98%;
+    border: 1px solid rgb(206, 206, 206);
+    background-color: #f8f6f6;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vh;
+    text-indent: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 50%;
+    padding-right: 2rem;
+}
+.right_content_dashboard #dashboard_content #addpatient_div #row2_inp{
+    height: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0% auto;
+}
+.right_content_dashboard #dashboard_content #addpatient_div #row2_inp .col{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0% 1.7%;
+    margin-bottom: 2%;
+}
+.right_content_dashboard #dashboard_content #addpatient_div #row2_inp .col label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vh;
+    margin-bottom: 1.2%;
+    margin-left: 1vh;
+}
+.right_content_dashboard #dashboard_content #addpatient_div #row2_inp .col #bday{
+    height: 6vh;
+    width: 96%;
+    padding-right: 2%;
+    border: 1px solid rgb(206, 206, 206);
+    background-color: #f8f6f6;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vh;
+    text-indent: 10px;
+}
+.right_content_dashboard #dashboard_content #addpatient_div #row2_inp .col_age{
+    width: 8%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0% 1.7%;
+    margin-bottom: 2%;
+
+}
+.right_content_dashboard #dashboard_content #addpatient_div #row2_inp .col_age label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vh;
+    margin-bottom: 1.2%;
+    margin-left: 1vh;
+}
+.right_content_dashboard #dashboard_content #addpatient_div #row2_inp .col_age #age{
+    height: 6vh;
+    width: 96%;
+    padding-right: 2%;
+    border: 1px solid rgb(206, 206, 206);
+    background-color: #f8f6f6;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vh;
+    text-align: center;
+}
+.right_content_dashboard #dashboard_content #addpatient_div #row2_inp .col_weight{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0% 1.7%;
+    margin-bottom: 2%;
+
+}
+.right_content_dashboard #dashboard_content #addpatient_div #row2_inp .col_weight label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vh;
+    margin-bottom: 1.2%;
+    margin-left: 1vh;
+}
+.right_content_dashboard #dashboard_content #addpatient_div #row2_inp .col_weight #weight_inp{
+    height: 6vh;
+    width: 98%;
+    border: 1px solid rgb(206, 206, 206);
+    background-color: #f8f6f6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 2vh;
+}
+.right_content_dashboard #dashboard_content #addpatient_div #row2_inp .col_weight #weight_inp input{
+    height: 98%;
+    width: 75%;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+}
+.right_content_dashboard #dashboard_content #addpatient_div #row2_inp .col_weight #weight_inp div{
+    width: 50%;
+    height: 100%;
+    background-color: #78CCF2;
+    font-size: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.right_content_dashboard #dashboard_content #addpatient_div #button_div{
+    height: auto;
+    margin-bottom: 2%;
+    width: 95%;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.right_content_dashboard #dashboard_content #addpatient_div #button_div button{
+    height: 6vh;
+    width: 20vh;
+    margin: 0% 1.5%;
+    border: none;
+    font-size: 2vh;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    color: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right_content_dashboard #dashboard_content #addpatient_div #button_div button img{
+    height: 30%;
+    margin-right: 4%;
+}
+.right_content_dashboard #dashboard_content #addpatient_div #button_div #cancel_btn{
+    background-color: #929292;
+}
+.right_content_dashboard #dashboard_content #addpatient_div #button_div #add_btn{
+    background-color: #93C1F9;
+}
+.right_content_dashboard #dashboard_content #addpatient_div #button_div button:hover{
+    opacity: 70%;
+}
+
+
+#validation_admin_editPatientInfo{
+    margin-top: -.7%;
+    height: 4vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+#validation_admin_editPatientInfo img{
+    height: 70%;
+    margin-right: .5%;
+    width: auto;
+}
+#validation_admin_editPatientInfo span{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    color: rgb(250, 64, 64);
+    font-size: 2.2vh;
+}
+
+
+
+/* Sweet alert */
+#sweetalert_container{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    inset: 0;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 11;
+}
+#sweetalert_container #succes_alert{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    height: auto;
+    width: 35%;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+#sweetalert_container #succes_alert #alert_div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#sweetalert_container #succes_alert #alert_div #gif_alert{
+    margin-top: 3%;
+    height: 20vh;
+    width: auto;
+}
+#sweetalert_container #succes_alert #alert_div #thankyou{
+    margin: 2% 0%;
+    font-size: 4vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #1ac8db;
+}
+#sweetalert_container #succes_alert #alert_div .message_alert{
+    margin: 0%;
+    font-size: 2.3vh;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(99, 99, 99);
+    width: 80%;
+    text-align: center;
+}
+#sweetalert_container #succes_alert #alert_div #close_alert{
+    margin-top: 5%;
+    width: 50%;
+    padding: 2% 0%;
+    font-size: 2vh;
+    border: none;
+    background-color: #1ac8db;
+    font-family: 'Poppins', sans-serif;
+    color: #ffff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-bottom: 5%;
+}
+#sweetalert_container #succes_alert #alert_div #close_alert:hover{
+    opacity: 80%;
+}
+
+
+
+
+
+@media only screen 
+and (max-device-width : 1281px) 
+and (max-device-height : 961px){
+
+}   
+
+@media only screen 
+and (max-device-width : 1281px) 
+and (max-device-height : 721px){
+ 
+}   
+
+
+@media only screen 
+and (max-device-width : 1025px) 
+and (max-device-height : 768px){
+
+}

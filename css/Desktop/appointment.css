@@ -1,0 +1,794 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+#up{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../images/body_bg.png);
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 7%;
+}
+#apppointment_text{
+    margin: 0;
+    font-size: 6vh;
+    font-family: futuraBold;
+    color: #ffff;
+    text-align: center;
+}
+#content{
+    padding-top: 1%;
+    margin: 0% auto;
+    margin-top: 1.5%;
+    height: auto;
+    width: 70%;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 5px solid#87e5f0;
+}
+#calendar_time_content{
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin-top: 1%
+}
+#calendar_time_content #left{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+#calendar_time_content #right{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+#calendar_time_content #right #top{
+    margin-top: 2%;
+    height: 6vh;
+    display: flex;
+    width: 88.5%;
+    margin-left: 4%;
+}
+#calendar_time_content #right #top #one{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+}
+#calendar_time_content #right #top #one img{
+    height: 70%;
+    width: auto;
+    margin-right: 3%;
+}
+#calendar_time_content #right #top #one p{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif; 
+    color: rgb(29, 29, 29);
+    font-size: 2.3vh;
+}
+#select_time_text{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.3vh;
+    margin-bottom: 2%;
+    color: #63656e;
+    font-weight: bold;
+    margin-left: 3%;
+    margin-top: 0%;
+}
+#calendar_time_content #right #info_box{
+    height: 9vh;
+    width: 88.5%;
+    border-radius: 5px;
+    margin-left: 4%;
+    margin-top: 2%;
+    background-color: rgb(175, 134, 170);
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 2.2vh;
+}
+#calendar_time_content #right #info_box img{
+    height: 50%;
+    width: auto;
+    margin-right: 1%;
+    margin-left: 4%;
+}
+#warning_validation_appointment{
+    height: 3vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+#warning_validation_appointment img{
+    margin-right: 1%;
+    height: 100%;
+    width: auto;
+}
+#warning_validation_appointment p{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vh;
+    color: rgb(250, 64, 64);
+}
+#for_button_app{
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+#for_button_app button{
+    font-size: 2.3vh;
+    color: whitesmoke;
+    background: #80c0f4;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+    padding: 0% 7%;
+    height: 100%;
+    border-radius: 7px;
+    font-family: 'Poppins', sans-serif; 
+}
+#for_button_app button:hover{
+    opacity: 70%;
+}
+
+
+
+#lineBox1{
+    height: 30vh;
+    width: 30%;
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    overflow: hidden;
+}
+#body_lines1{
+    height:50vh;
+    margin-left: -120%;
+    width: 55vw;
+    float: left;
+}
+
+
+
+
+#select_date_text{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.3vh;
+    margin-bottom: 3%;
+    color: #63656e;
+    font-weight: bold;
+    text-indent: 5px;
+    margin-left: 5%;
+}
+/*calendar in appointment*/
+.calendar_appointment {
+    margin-left: 5%;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 95%;
+    height:auto;
+    background-color: #f3f9ff;
+    border-radius: 10px;
+}
+.calendar_appointment #header_calendar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.month_appointment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    height: 15%;
+    margin: 2% auto;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 5px;
+    color: #5b5b5c;
+}
+#date_str_appointment{
+    font-size: 2.5vh;
+}
+.weekdays_appointment {
+    background-color: #f3f9ff;
+    color: gray;
+    padding: 1% 0;
+    display: flex;
+    font-size: 2vh;
+    margin-bottom: 2%;
+}
+
+.days_appointment {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f3f9ff;
+    color:rgb(59, 59, 59);
+}
+
+.weekdays_appointment div,
+.days_appointment div {
+    text-align: center;
+    width: 13.91%;
+}
+
+.days_appointment div {
+    padding: 2.3% 0;
+    margin-bottom: 0%;
+    transition: all 0.4s;
+    font-size: 2vh;
+    z-index: 1;
+}
+
+.prev_date_appointment {
+    color: rgb(212, 212, 212);
+}
+
+.today_appointment {
+    background-color: #aacdf8;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.days_appointment div:hover {
+    cursor: pointer;
+    background-color: #dfe6e9;
+    border-radius: 5px;
+}
+
+.prev_appointment,
+.next_appointment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7vh;
+    height: 7vh;
+    border-radius: 50%;
+    margin: 0% 0%;
+    font-size: 3vh;
+    transition: all 0.4s;
+}
+
+.prev_appointment:hover,
+.next_appointment:hover {
+    cursor: pointer;
+    color: pink;
+}
+
+#month_appointment {
+    font-size: 2.5vh;
+    margin-right: 3%;
+}
+
+
+
+
+/*time in appointment*/
+#time_content{
+    height: 26vh;
+    width: 95%;
+    padding: 2% 2%;
+    margin-bottom: 1%;
+    overflow-y: scroll;
+    display: flex;
+}
+#time_content #slc_time{
+    display: none;
+    margin-left: -100%;
+    width: 98%;
+    height: 106%;
+    background-color: #aacdf8;
+    border-radius: 10px;
+}
+#time_content #slc_time img{
+    height: 2vh;
+    width: auto;
+    background-color: black;
+    border-radius: 50%;
+    padding: 1%;
+    float: right;
+    margin-top: -2%;
+    margin-right: -2%;
+}
+#time_content #slc_time img:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+#time_content #slc_time div{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#time_content #slc_time div p{
+    font-size: 4vh;
+    margin: 0%;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+}
+#available_time{
+    width: 100%;
+    height: auto;
+}
+#available_time table{
+    width: 100%;
+}
+#available_time table tr{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#available_time table td{
+    background-color: #f3f9ff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    height: 6vh;
+    width: 40%;
+    margin-bottom: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+#available_time table td p{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vh;
+    color: #32364e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+#available_time table td p:hover{
+    background-color: #aacdf8;
+    color: white;
+    cursor: pointer;
+}
+#time_container button{
+    font-size: 2.3vh;
+    color: whitesmoke;
+    background: #80c0f4;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: none;
+    padding: 7px 25px;
+    border-radius: 7px;
+    font-family: 'Poppins', sans-serif; 
+}
+#time_container button:hover{
+    opacity: 70%;
+}
+
+
+/*form appointment*/
+#form_appointment{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    inset: 0;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 11;
+}
+#form_appointment #form_content{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: auto;
+    width: 40%;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+#form_appointment #form_content #head_text{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 2vh;
+    margin-left: 1%;
+}
+#form_appointment #form_content #container_name{
+    margin-top: 5%;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.for_input_appointment{
+    height: 10vh;
+    width: 30%;
+    font-family: 'Poppins', sans-serif; 
+    margin: 0% 1%;
+}
+.for_input_appointment label{
+    font-size: 2vh;
+    margin-left: 1%;
+}
+.for_input_appointment input{
+    height: 5.5vh;
+    width: 95%;
+    border: 1px solid rgb(206, 206, 206);
+    background-color: #f8f6f6;
+    border-radius: 5px;
+    font-size: 2vh;
+    text-indent: 10px;
+    margin-top: 1%;
+}
+#form_appointment #form_content #container_address{
+    margin-top: 1%;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#form_appointment #form_content .for_input_appointment{
+    width: 50%;
+}
+.for_input_appointment1{
+    height: 10vh;
+    width: 40%;
+    font-family: 'Poppins', sans-serif; 
+    margin: 0% 1%;
+}
+.for_input_appointment1 label{
+    font-size: 2vh;
+    margin-left: 1%;
+}
+.for_input_appointment1 input{
+    height: 5vh;
+    width: 95%;
+    border: 1px solid rgb(206, 206, 206);
+    background-color: #f8f6f6;
+    border-radius: 5px;
+    font-size: 2vh;
+    text-indent: 10px;
+}
+#form_appointment #form_content .for_input_appointment #ver_code{
+    height: 100%;
+    width: 97%;
+    margin-top: 1%;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+
+}
+#form_appointment #form_content .for_input_appointment #ver_code #verification_email{
+    width: 60%;
+    height: 5.5vh;
+    font-size: 1.8vh;
+    border: 1px solid rgb(206, 206, 206);
+    background-color: #f8f6f6;
+    margin-top: 0%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+#form_appointment #form_content .for_input_appointment #ver_code #getCode{
+    width: 40%;
+    border: none;
+    height: 6vh;
+    background: #9d9e9e;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1.8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#form_appointment button{
+    float: right;
+}
+#form_appointment #submit_appointment{
+    font-size: 2.3vh;
+    color: whitesmoke;
+    background: #80c0f4;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: none;
+    padding: 7px 25px;
+    border-radius: 7px;
+    font-family: 'Poppins', sans-serif; 
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#form_appointment #close_appointment{
+    font-size: 2.3vh;
+    color: #80c0f4;
+    background: #fafdf3; 
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: 2px solid #80c0f4;
+    padding: 7px 25px;
+    border-radius: 7px;
+    font-family: 'Poppins', sans-serif; 
+}
+#form_appointment button:hover{
+    opacity: 70%;
+}
+
+#validation_error_form_app{
+    visibility: hidden;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+    font-family: 'Poppins', sans-serif; 
+    color: rgb(248, 47, 47);
+    margin-bottom: 1%;
+}
+#validation_error_form_app img{
+    height: 60%;
+    width: auto;
+    margin-right: 1%;
+}
+.for_input_appointment .selectserv{
+    height: 5.5vh;
+    background-color: #f8f6f6;
+    width: 98.5%;
+    margin-top: 1%;
+    color:rgb(51, 51, 51);
+    border: none;
+    outline: none;
+    border: 1px solid rgb(206, 206, 206);
+    box-shadow: 0px 0px 0px;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 2vh;
+    text-indent: 5px;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 50%;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    text-align: center;
+}
+
+
+
+/*color legends*/
+#color_legends{
+    display: none;
+    width: 100%;
+    height: 20vh;
+    position: fixed;
+    top: 2%;
+    z-index: 12;
+}
+#color_legends #legend_box{
+    height: 100%;
+    width: 25%;
+    margin: 0% auto;
+    background-color: #ffffff;
+    border: 2px solid rgb(175, 134, 170);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#color_legends #legend_box p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2vh;
+    font-family: 'Poppins', sans-serif; 
+    margin: 0%;
+}
+#color_legends #legend_box .box_cont{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 2vh;
+    align-items: center;
+}
+#color_legends #legend_box .box_cont div{
+    margin-left: 10%;
+    margin-right: 2%;
+    height: 100%;
+    width: 8%;
+}
+
+
+/*Validation Appointment*/
+#newvalidation_Appointment{
+    height: 15vh;
+    width: 25%;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border-left: 10px solid #93C1F9;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 12%;
+    z-index: 50;
+    right: -56%; /*2.5 dapat */
+}
+#newvalidation_Appointment .left{
+    width: 22%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#newvalidation_Appointment .left img{
+    height: auto;
+    width: 70%;
+}
+#newvalidation_Appointment .center{
+    width: 57%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#newvalidation_Appointment .center #text_validationHeader{
+    margin: 0%;
+    margin-left: 3%;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 3vh;
+    font-weight: bold;
+    color: #93C1F9;
+}
+#newvalidation_Appointment .center #text_validationContent{
+    margin: 0%;
+    margin-left: 3%;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1.8vh;
+    margin-top: 2%;
+    color: #747272
+}
+#newvalidation_Appointment .right{
+    margin-left: 2%;
+    width: 19%;
+    height: 80%;
+    border-left: 1px solid #AEAEAE;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 2.3vh;
+    font-weight: bold;
+    color: #93C1F9;;
+    justify-content: center;
+}
+#newclose_validationAppoinment:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+
+
+#loading_succes{
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+#loading_succes #cont{
+    height: 22vh;
+    width: auto;
+    padding: 0% 2%;
+    border-radius: 5px;
+    background-color: #f0f2f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#loading_succes #cont p{
+    margin: 0%;
+    font-size: 3vh;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(71, 71, 71);
+}
+#loading_succes #cont img{
+    height: 15vh;
+    width: auto;
+}
+
+
+
+@media only screen 
+and (max-device-width : 1921px) 
+and (max-device-height : 1081px){
+    #up{
+        background-size: 110%;
+    }
+}
+
+
+@media only screen 
+and (max-device-width : 1681px) 
+and (max-device-height : 1051px){
+    #up{
+        background-size: 110%;
+    }
+}
+
+
+@media only screen 
+and (max-device-width : 1281px) 
+and (max-device-height : 1025px){
+    #up{
+        background-position: top left;
+    }
+}
+
+
+@media only screen 
+and (max-device-width : 1281px) 
+and (max-device-height : 961px){
+    #up{
+        background-size: 120%;
+    }
+    #content{
+        width: 76%;
+    }
+    #form_appointment #form_content{
+        width: 50%;
+    }
+}
+
+@media only screen 
+and (max-device-width : 1281px) 
+and (max-device-height : 721px){
+    #up{
+        height: 130vh;
+        background-size: 100%;
+    }
+}
+
+
+@media only screen 
+and (max-device-width : 1025px) 
+and (max-device-height : 769px){
+    #up{
+        background-size: 125%;
+    }
+}
+
+@media only screen 
+and (max-device-width : 801px) 
+and (max-device-height : 601px){
+    #up{
+        background-size: 120%;
+    }
+}
